@@ -1,0 +1,68 @@
+body {
+    background-color: #a9f04b;
+}
+
+h1 {
+    color: rgb(2, 0, 94);
+    background-color: peachpuff;
+}
+
+#show_sketch {
+    float: right;
+}
+
+canvas {
+    border: 5px solid white;
+    border-radius: 15px;
+    animation-name: example;
+    animation-duration: 6s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+    margin-top: 110px;
+}
+
+@keyframes example {
+    from {
+        box-shadow: 1px 1px 40px white;
+    }
+
+    to {
+        box-shadow: 1px 1px 40px olivedrab;
+    }
+}
+
+p {
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+#label,
+#confidence {
+    color: black;
+}
+
+#score {
+    float: left;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+#timer {
+    float: right;
+    font-size: 30px;
+    margin-right: 100px;
+}
+
+#btn {
+    margin-top: 320px;
+    margin-left: 50px;
+}
+
+#draw, #draw2 {
+    font-size: 25px;
+    color: red;
+}
+
+#tim {
+    margin-left: 1225px;
+}
